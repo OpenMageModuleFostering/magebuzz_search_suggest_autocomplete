@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>magebuzz_search_suggest_autocomplete</name>
+    <version>0.1.1</version>
+    <stability>stable</stability>
+    <license uri="http://opensource.org/licenses/osl-3.0.php">OSL</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Search Suggest and Autocomplete - free extension for Magento 1</summary>
+    <description>Search Suggest and Autocomplete is an extension which gives your customers more flexibility while searching any product in a fast, easy and effective way. </description>
+    <notes>Search Suggest and Autocomplete extends Magento search and helps it run better for your online store. Customers can easily search products without loading the page. This extension uses Ajax to return match items with search query quickly. Moreover, the module configuration allows you to change the look and feel as well as customize search query to meet your requirements.</notes>
+    <authors><author><name>Magebuzz</name><user>magebuzz</user><email>magebuzz@gmail.com</email></author></authors>
+    <date>2016-02-05</date>
+    <time>08:38:32</time>
+    <contents><target name="magelocal"><dir name="Magebuzz"><dir name="Searchautocomplete"><dir name="Block"><file name="Searchautocomplete.php" hash="3dae1f220c0443e788c210ac94a7ca9e"/></dir><dir name="Helper"><file name="Data.php" hash="332263841f6e21930f710e13652386c0"/></dir><dir name="Model"><dir name="Source"><dir name="Product"><file name="Attribute.php" hash="ba139c78c9f8c152be68470969173d08"/></dir></dir></dir><dir name="controllers"><file name="IndexController.php" hash="8c76360c4e68b0a5e95941cdfef16d8c"/></dir><dir name="etc"><file name="adminhtml.xml" hash="07887045b8772974440d46feef5eb6c9"/><file name="config.xml" hash="3be2aeda9e6b1d239b8c3c2589bac78b"/><file name="system.xml" hash="fb208b6ede5ad59483301595c4fd3379"/></dir></dir></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><file name="searchautocomplete.xml" hash="aa1a55ec4ef756d6e5e1989b77d3898a"/></dir><dir name="template"><dir name="searchautocomplete"><file name="form.phtml" hash="bbebd1cb30dc956ad38061a350f78f00"/><dir name="product"><file name="price.phtml" hash="2590adbc425c27596236d23898429418"/></dir></dir></dir></dir></dir></dir></target><target name="magelocale"><dir name="en_US"><file name="Magebuzz_Searchautocomplete.csv" hash="e5aef8157b4a413114b75de8ab66adb5"/></dir></target><target name="mageweb"><dir name="js"><dir name="magebuzz"><dir name="searchautocomplete"><file name="ajaxsearch.js" hash="e9d8d166b797482b6b89a82f56f54d20"/></dir></dir></dir></target><target name="mageskin"><dir name="frontend"><dir name="base"><dir name="default"><dir name="css"><dir name="magebuzz"><dir name="searchautocomplete"><dir name="images"><file name="close-icon.png" hash="b94da2d715c62e91c9de77ae8cdf4e6f"/><file name="search-loading.gif" hash="73e57937304d89f251e7e540a24b095a"/><file name="search_complete.png" hash="2ef859aff87a9aa313316a47a59de268"/></dir></dir><file name="searchautocomplete.css" hash="ee866f99e7e5ac10c931fffe644e7bc3"/></dir></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Magebuzz_Searchautocomplete.xml" hash="0b201896d3d0e36b724aa94d6c1f2b93"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.1.0</min><max>6.0.0</max></php></required></dependencies>
+</package>

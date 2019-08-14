@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/magebuzz_search_suggest_autocomplete",
+    "type": "magento-module",
+    "license": "OSL",
+    "homepage": "",
+    "description": "Search Suggest and Autocomplete - free extension for Magento 1",
+    "authors": [
+    {
+        "name": "Magebuzz",
+        "email": "magebuzz@gmail.com"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}
