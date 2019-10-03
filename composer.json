@@ -1,7 +1,7 @@
 {
-    "name": "OpenMageModuleFostering\/magebuzz_search_suggest_autocomplete",
+    "name": "openmage-module-fostering\/magebuzz_search_suggest_autocomplete",
     "type": "magento-module",
-    "license": "OSL",
+    "license": "OSL-3.0",
     "homepage": "",
     "description": "Search Suggest and Autocomplete - free extension for Magento 1",
     "authors": [
